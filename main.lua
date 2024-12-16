@@ -26,7 +26,7 @@ local Admin = GUI:Tab{
 }
 
 local Bypassers = GUI:Tab{
-	Name = "ChatBypasser Scripts",
+	Name = "Chat Scripts",
 	Icon = "rbxassetid://11707615313"
 }
 
@@ -61,6 +61,18 @@ Admin:Button{
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
 	end,}
 
+Admin:Button{
+	Name = "GX Admin",
+	Description = "Admin script",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/v6E9BmFK",true))();
+	end,}
+Admin:Button{
+	Name = "Reviz Admin",
+	Description = "Admin script",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/A2R7TdJV"))();
+	end,}
 
 Bypassers:Button{
 	Name = "BetterBypasser",
@@ -82,6 +94,12 @@ Bypassers:Button{
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AlgariBot/lua/refs/heads/Lua-Script-Executor/LocalNeverPatchedBypass.txt"))()
 	end,}
 
+Bypassers:Button{
+	Name = "QuizBot",
+	Description = "Triva bot for chat",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Damian-11/quizbot/master/quizbot.luau"))();
+	end,}
 Others:Button{
 	Name = "ChatSpy",
 	Description = "Made by me",

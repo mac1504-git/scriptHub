@@ -85,7 +85,7 @@ Bypassers:Button{
 	Name = "UserCreation",
 	Description = "Chat bypasser by usercreation",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/1price/usercreation/refs/heads/main/UserCreation.lua", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/randomizedcomponent/UC/refs/heads/main/3307468c285f4fe535fb5d87b4b053e6.lua"))()
 	end,}
 Bypassers:Button{
 	Name = "NeverPatched",
@@ -116,6 +116,12 @@ Others:Button{
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
 	end,}
 
+Others:Button{
+	Name = "Eazvy Hub",
+	Description = "Universal script hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/public-scripts/main/Universal_Animations_Emotes.lua"))()
+	end,}
 
 Tab3:Slider{
 	Name = "WalkSpeed",
